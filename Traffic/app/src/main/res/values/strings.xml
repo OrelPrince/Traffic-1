@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Traffic</string>
+    <string name="hello_guide">欢迎使用</string>
+    <string name="set_vlaue">设置阈值信息</string>
+    <string name="set_time">设置刷新时间</string>
+    <string name="set_ip">设置IP地址</string>
+    <string name="prompt">提示</string>
+    <string name="no_net_work">请链接网络</string>
+    <string name="data_value">PM2.5：%1$s μg/m³，CO2：%2$s μg/m³，温度：%3$s ℃，湿度：%4$s %% ,光照强度：%5$s Lx</string>
+    <string name="msg_pm_pollute">PM2.5污染严重，请全副武装哦！\n</string>
+    <string name="msg_co2_high">CO2 污染太严重啊 \n</string>
+    <string name="msg_temp_high">热死了！热死了！赶紧去屋里躲躲 ! \n</string>
+    <string name="msg_temp_low">太冷了 ，进屋躲躲! \n</string>
+    <string name="msg_humi_high">湿度太大！ \n</string>
+    <string name="msg_humi_low">空气太干燥 \n</string>
+    <string name="input_ip_addr">设置IP地址</string>
+    <string name="msg_light_low">光线较暗，请开灯驾驶! \n</string>
+    <string name="msg_light_high">太刺眼了 ! \n</string>
+</resources>

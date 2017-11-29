@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="600dip"
+    android:layout_height="400dip"
+    android:background="@drawable/dialog_bg"
+    android:orientation="vertical"
+	android:gravity="center"
+    android:padding="20dp" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="90dip" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/input_ip_addr"
+            android:textColor="#292929"
+            android:textSize="25sp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp" 
+            android:id="@+id/close"
+            android:background="@drawable/dialog_close" />
+    </RelativeLayout>
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="60dip"
+        android:layout_marginBottom="30dip"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/ip1_edit_text"
+            android:layout_width="120dip"
+            android:layout_height="60dip"
+            android:layout_marginLeft="5dip"
+            android:gravity="center"
+            android:textSize="22sp" />
+        <EditText
+            android:id="@+id/ip2_edit_text"
+            android:layout_width="120dip"
+        	android:layout_height="60dip"
+            android:layout_marginLeft="5dip"
+        	android:textSize="22sp"
+        	android:gravity="center"
+        	 />
+        <EditText
+            android:id="@+id/ip3_edit_text"
+            android:layout_width="120dip"
+        	android:layout_height="60dip"
+            android:layout_marginLeft="5dip"
+        	android:textSize="22sp"
+        	android:gravity="center"
+        	 />
+        <EditText
+            android:id="@+id/ip4_edit_text"
+            android:layout_width="120dip"
+        	android:layout_height="60dip"
+            android:layout_marginLeft="5dip"
+        	android:textSize="22sp"
+        	android:gravity="center"
+        	 />
+
+    </LinearLayout>
+    <Button
+       	android:id="@+id/ok_button"
+       	android:layout_width="80dp"
+        android:layout_height="60dip"
+        android:background="@drawable/btn_blue"
+        android:layout_marginTop="25dip"
+        android:layout_marginLeft="60dip"
+        android:layout_marginRight="60dip"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:text="@android:string/ok" />
+    
+</LinearLayout>
